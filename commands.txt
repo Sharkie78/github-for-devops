@@ -1,0 +1,28 @@
+ 228  git status
+  229  touch testing.py
+  230  touch testing.py
+  231  git status
+  232  git add testing.py
+  233  git status
+  234  git rm --cached testing.py
+  235  git status
+  236  git commit -m "Added new files"
+  237  git add testing.py
+  238  git status
+  239  git commit -m "Added new files"
+  240  git status
+  241  rm testing.py
+  242  git status
+  243  git restore testing.py
+  244  history
+  245  touch commands.txt
+  246  git status
+  247  git add commands.txt
+  248  git status
+  249  git commit =m "Added the commands"
+  250  git commit = m "Added the commands"
+  251  git commit -m "Added the commands"
+  252  git status
+  253  git remote add origin git@github.com:Sharkie78/github-for-devops.git
+  254  git remote -v
+  255  git push origin master
